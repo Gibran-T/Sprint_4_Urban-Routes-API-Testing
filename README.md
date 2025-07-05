@@ -1,11 +1,5 @@
 # 🔌 Urban Routes – Sprint 4: API Testing
 
-# 🚀 Urban Lunch – Sprint 4: Regression API Testing
-
-## 📝 Short Description  
-This project contains a detailed regression test suite for the **Urban Lunch** API.  
-It includes manual tests for 6 core endpoints, boundary testing, negative scenarios, and structured bug reporting.
-
 ---
 
 This repository documents the full suite of **manual API tests** executed during **Sprint 4** of the TripleTen QA Bootcamp. The goal was to validate all key backend functionalities of the **Urban Routes** delivery platform through well-structured requests and edge-case scenarios.
@@ -83,7 +77,8 @@ Status: Passed
 
 📎 Documentation
 ✅ Test Plan Spreadsheet:
-📄 Google Sheets – Urban Lunch API Regression
+📄 Google Sheets – [Urban Lunch API Regression]
+(https://docs.google.com/spreadsheets/d/1qw_6VOU1WC-owDRoMNuxDC4HkEF3K_xs/edit?usp=sharing)
 
 🐞 Bug Reports in Jira:
 🔗 Jira – gibranlog.atlassian.net
