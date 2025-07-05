@@ -66,12 +66,14 @@ TQS-22	Email already used still allows creation
 TQS-23	Weak passwords are accepted
 ...	See full bug list in the test plan below
 
-📎 Documentation Links
-✅ Test Plan Spreadsheet:
-Google Sheets – API Test Cases
----
-🐞 Bug Reports in Jira:
-https://gibranlog.atlassian.net
+## 📎 Documentation
+
+- ✅ **Test Plan Spreadsheet**  
+  [Google Sheets – Mobile Testing (Urban Lunch)](https://docs.google.com/spreadsheets/d/1fOeHuOKkFWUSN_iipfXhLZn42mJNhS26uZzp6MRwR4Q/edit?usp=sharing)
+
+- 🐞 **Bug Reports in Jira**  
+  [https://gibranlog.atlassian.net](https://gibranlog.atlassian.net)
+
 ---
 📌 Highlights of the Sprint
 🧪 Over 40 detailed test cases across 6 major endpoints
