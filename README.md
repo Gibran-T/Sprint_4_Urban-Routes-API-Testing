@@ -1,5 +1,13 @@
 # 🔌 Urban Routes – Sprint 4: API Testing
 
+# 🚀 Urban Lunch – Sprint 4: Regression API Testing
+
+## 📝 Short Description  
+This project contains a detailed regression test suite for the **Urban Lunch** API.  
+It includes manual tests for 6 core endpoints, boundary testing, negative scenarios, and structured bug reporting.
+
+---
+
 This repository documents the full suite of **manual API tests** executed during **Sprint 4** of the TripleTen QA Bootcamp. The goal was to validate all key backend functionalities of the **Urban Routes** delivery platform through well-structured requests and edge-case scenarios.
 
 ---
@@ -41,11 +49,15 @@ This repository documents the full suite of **manual API tests** executed during
 
 ## 📊 Example Test Case
 
-```http
-POST /api/v1/kits/2/products
-Authorization: Bearer <token>
-Content-Type: application/json
+---
 
+## 📌 Example Test Case
+
+**Endpoint:** `POST /api/v1/kits/2/products`  
+**Headers:**  
+```http
+Authorization: Bearer <token>  
+Content-Type: application/json
 {
   "productsList": [
     { "id": 1, "quantity": 2 },
@@ -56,36 +68,25 @@ Expected: 200 OK
 Actual: 200 OK ✅
 Status: Passed
 ---
-# 🚀 Urban Lunch – Sprint 4: Regression API Testing
 
-## 📝 Short Description  
-This project contains a detailed regression test suite for the **Urban Lunch** API.  
-It includes manual tests for 6 core endpoints, boundary testing, negative scenarios, and structured bug reporting.
-
----
-
-## 🐞 Notable Bugs Found
-
-| Bug ID   | Summary                                                |
-|----------|--------------------------------------------------------|
-| TQS-3    | System allows adding non-existent product              |
-| TQS-5    | Empty JSON body not handled                            |
-| TQS-7    | Missing auth still returns `200`                       |
-| TQS-14   | Order created without authentication                   |
-| TQS-22   | Email already used still allows creation               |
-| TQS-23   | Weak passwords are accepted                            |
-| ...      | See full bug list in the test plan below               |
+| Bug ID | Summary                                    |
+| ------ | ------------------------------------------ |
+| TQS-3  | System allows adding non-existent product  |
+| TQS-5  | Empty JSON body not handled                |
+| TQS-7  | Missing auth still returns `200`           |
+| TQS-14 | Order created without authentication       |
+| TQS-22 | Email already used still allows creation   |
+| TQS-23 | Weak passwords are accepted                |
+| ...    | *See full bug list in the test plan below* |
 
 ---
 
-## 📎 Documentation
+📎 Documentation
+✅ Test Plan Spreadsheet:
+📄 Google Sheets – Urban Lunch API Regression
 
-- ✅ **Test Plan Spreadsheet**  
-  [Google Sheets – Mobile Testing (Urban Lunch)](https://docs.google.com/spreadsheets/d/1qw_6VOU1WC-owDRoMNuxDC4HkEF3K_xs/edit?usp=sharing)
-
-- 🐞 **Bug Reports in Jira**  
-  [https://gibranlog.atlassian.net](https://gibranlog.atlassian.net)
-
+🐞 Bug Reports in Jira:
+🔗 Jira – gibranlog.atlassian.net
 ---
 
 ## 📌 Highlights of the Sprint
@@ -97,11 +98,10 @@ It includes manual tests for 6 core endpoints, boundary testing, negative scenar
 
 ---
 
-## 👨‍💻 Author
+👨‍💻 Author
+Thiago Gibran Timoteo Nunes
+📍 QA Engineer | REST API Testing | Exploratory & Functional QA
+🌐 GitHub Portfolio
 
-**Thiago Gibran Timoteo Nunes**  
-📍 QA Engineer | REST API Testing | Exploratory & Functional QA  
-🌐 [GitHub Portfolio](https://github.com/Gibran-T)
-
-> 🧠 _This project is part of a real-world QA portfolio showcasing structured test design, API analysis, and issue documentation. Developed during the TripleTen QA Bootcamp._
+🧠 This project is part of a real-world QA portfolio showcasing structured test design, API analysis, and issue documentation. Developed during the TripleTen QA Bootcamp.
 
