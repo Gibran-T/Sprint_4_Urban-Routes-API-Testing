@@ -1,4 +1,3 @@
-readme_content = """
 # 🔌 Urban Routes – Sprint 4: API Testing
 
 This repository documents the full suite of **manual API tests** executed during **Sprint 4** of the TripleTen QA Bootcamp. The goal was to validate all key backend functionalities of the **Urban Routes** delivery platform through well-structured requests and edge-case scenarios.
