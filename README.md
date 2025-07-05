@@ -1,6 +1,4 @@
-from pathlib import Path
 
-# Conteúdo do README.md completo formatado
 readme_content = """
 # 🔌 Urban Routes – Sprint 4: API Testing
 
@@ -62,7 +60,7 @@ Status: Passed
 ---
 🐞 Notable Bugs Found
 Bug ID	Summary
-TQS-3	System allows adding nonexistent product
+TQS-3	System allows adding none xistent product
 TQS-5	Empty JSON body not handled
 TQS-7	Missing auth still returns 200
 TQS-14	Order created without authentication
