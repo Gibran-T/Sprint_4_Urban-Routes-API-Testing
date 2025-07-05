@@ -56,38 +56,52 @@ Expected: 200 OK
 Actual: 200 OK ✅
 Status: Passed
 ---
-🐞 Notable Bugs Found
-Bug ID	Summary
-TQS-3	System allows adding none xistent product
-TQS-5	Empty JSON body not handled
-TQS-7	Missing auth still returns 200
-TQS-14	Order created without authentication
-TQS-22	Email already used still allows creation
-TQS-23	Weak passwords are accepted
-...	See full bug list in the test plan below
+# 🚀 Urban Lunch – Sprint 4: Regression API Testing
+
+## 📝 Short Description  
+This project contains a detailed regression test suite for the **Urban Lunch** API.  
+It includes manual tests for 6 core endpoints, boundary testing, negative scenarios, and structured bug reporting.
+
+---
+
+## 🐞 Notable Bugs Found
+
+| Bug ID   | Summary                                                |
+|----------|--------------------------------------------------------|
+| TQS-3    | System allows adding non-existent product              |
+| TQS-5    | Empty JSON body not handled                            |
+| TQS-7    | Missing auth still returns `200`                       |
+| TQS-14   | Order created without authentication                   |
+| TQS-22   | Email already used still allows creation               |
+| TQS-23   | Weak passwords are accepted                            |
+| ...      | See full bug list in the test plan below               |
+
+---
 
 ## 📎 Documentation
 
 - ✅ **Test Plan Spreadsheet**  
-  [Google Sheets – Mobile Testing (Urban Lunch)](https://docs.google.com/spreadsheets/d/1qw_6VOU1WC-owDRoMNuxDC4HkEF3K_xs/edit?usp=sharing&ouid=114645024892012280613&rtpof=true&sd=true)
+  [Google Sheets – Mobile Testing (Urban Lunch)](https://docs.google.com/spreadsheets/d/1qw_6VOU1WC-owDRoMNuxDC4HkEF3K_xs/edit?usp=sharing)
 
 - 🐞 **Bug Reports in Jira**  
   [https://gibranlog.atlassian.net](https://gibranlog.atlassian.net)
 
 ---
-📌 Highlights of the Sprint
-🧪 Over 40 detailed test cases across 6 major endpoints
 
-🔐 Covered authorization, input types, and structure
+## 📌 Highlights of the Sprint
 
-🧾 Detected and logged critical bugs in backend logic and validation
+🧪 Over **40** detailed test cases across **6** major endpoints  
+🔐 Covered **authorization**, **input types**, and **response structure**  
+🛠️ Detected and reported **critical backend logic bugs**  
+📉 Applied **boundary testing**, **invalid payloads**, and **format-specific requests**
 
-📈 Used boundary testing, invalid payloads, and format-specific requests
 ---
-👨‍💻 Author
-Thiago Gibran Timoteo Nunes
-📍 QA Engineer | REST API Testing | Exploratory & Functional QA
-🌐 GitHub Portfolio
 
-🧠 This project is part of a real-world QA portfolio showcasing structured test design, API analysis, and issue documentation. Developed as part of TripleTen's QA Bootcamp.
-"""
+## 👨‍💻 Author
+
+**Thiago Gibran Timoteo Nunes**  
+📍 QA Engineer | REST API Testing | Exploratory & Functional QA  
+🌐 [GitHub Portfolio](https://github.com/Gibran-T)
+
+> 🧠 _This project is part of a real-world QA portfolio showcasing structured test design, API analysis, and issue documentation. Developed during the TripleTen QA Bootcamp._
+
