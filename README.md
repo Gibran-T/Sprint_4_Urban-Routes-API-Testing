@@ -69,7 +69,7 @@ TQS-23	Weak passwords are accepted
 ## 📎 Documentation
 
 - ✅ **Test Plan Spreadsheet**  
-  [Google Sheets – Mobile Testing (Urban Lunch)](https://docs.google.com/spreadsheets/d/1fOeHuOKkFWUSN_iipfXhLZn42mJNhS26uZzp6MRwR4Q/edit?usp=sharing)
+  [Google Sheets – Mobile Testing (Urban Lunch)](https://docs.google.com/spreadsheets/d/1qw_6VOU1WC-owDRoMNuxDC4HkEF3K_xs/edit?usp=sharing&ouid=114645024892012280613&rtpof=true&sd=true)
 
 - 🐞 **Bug Reports in Jira**  
   [https://gibranlog.atlassian.net](https://gibranlog.atlassian.net)
